@@ -1,0 +1,17 @@
+# docker-compose.yaml
+version: "3.7"
+services:
+  apache-pulsar:
+    hostname: apache-pulsar
+    image: apachepulsar/pulsar:2.5.0
+    command: ["bin/pulsar", "standalone"]
+    ports:
+      - "6650:6650"
+      - "8080:8080"
+  apache-pulsar-dashboard:
+    hostname: apache-pulsar-dashboard
+    image: apachepulsar/pulsar-dashboard
+    ports:
+      - "80:80"
+    environment:
+      - SERVICE_URL=http://apache-pulsar:8080
