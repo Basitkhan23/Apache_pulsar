@@ -1,0 +1,825 @@
+2020/06/01-02:04:39.387059 7f6a5ad67700 RocksDB version: 5.13.3
+2020/06/01-02:04:39.387120 7f6a5ad67700 Git sha rocksdb_build_git_sha:
+2020/06/01-02:04:39.387124 7f6a5ad67700 Compile date Jun 11 2018
+2020/06/01-02:04:39.387127 7f6a5ad67700 DB SUMMARY
+2020/06/01-02:04:39.387171 7f6a5ad67700 CURRENT file:  CURRENT
+2020/06/01-02:04:39.387174 7f6a5ad67700 IDENTITY file:  IDENTITY
+2020/06/01-02:04:39.387182 7f6a5ad67700 MANIFEST file:  MANIFEST-000008 size: 138 Bytes
+2020/06/01-02:04:39.387186 7f6a5ad67700 SST files in /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/current dir, Total Num: 0, files: 
+2020/06/01-02:04:39.387188 7f6a5ad67700 Write Ahead Log file in /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/current: 000010.log size: 0 ; 
+2020/06/01-02:04:39.387191 7f6a5ad67700                         Options.error_if_exists: 0
+2020/06/01-02:04:39.387193 7f6a5ad67700                       Options.create_if_missing: 1
+2020/06/01-02:04:39.387194 7f6a5ad67700                         Options.paranoid_checks: 1
+2020/06/01-02:04:39.387196 7f6a5ad67700                                     Options.env: 0x7f6a7567bf60
+2020/06/01-02:04:39.387198 7f6a5ad67700                                Options.info_log: 0x7f6b38031fa0
+2020/06/01-02:04:39.387200 7f6a5ad67700                Options.max_file_opening_threads: 16
+2020/06/01-02:04:39.387202 7f6a5ad67700                              Options.statistics: (nil)
+2020/06/01-02:04:39.387203 7f6a5ad67700                               Options.use_fsync: 0
+2020/06/01-02:04:39.387205 7f6a5ad67700                       Options.max_log_file_size: 0
+2020/06/01-02:04:39.387207 7f6a5ad67700                  Options.max_manifest_file_size: 18446744073709551615
+2020/06/01-02:04:39.387209 7f6a5ad67700                   Options.log_file_time_to_roll: 0
+2020/06/01-02:04:39.387210 7f6a5ad67700                       Options.keep_log_file_num: 1000
+2020/06/01-02:04:39.387212 7f6a5ad67700                    Options.recycle_log_file_num: 0
+2020/06/01-02:04:39.387213 7f6a5ad67700                         Options.allow_fallocate: 1
+2020/06/01-02:04:39.387215 7f6a5ad67700                        Options.allow_mmap_reads: 0
+2020/06/01-02:04:39.387217 7f6a5ad67700                       Options.allow_mmap_writes: 0
+2020/06/01-02:04:39.387218 7f6a5ad67700                        Options.use_direct_reads: 0
+2020/06/01-02:04:39.387220 7f6a5ad67700                        Options.use_direct_io_for_flush_and_compaction: 0
+2020/06/01-02:04:39.387221 7f6a5ad67700          Options.create_missing_column_families: 1
+2020/06/01-02:04:39.387223 7f6a5ad67700                              Options.db_log_dir: 
+2020/06/01-02:04:39.387224 7f6a5ad67700                                 Options.wal_dir: /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/current
+2020/06/01-02:04:39.387226 7f6a5ad67700                Options.table_cache_numshardbits: 6
+2020/06/01-02:04:39.387228 7f6a5ad67700                      Options.max_subcompactions: 1
+2020/06/01-02:04:39.387229 7f6a5ad67700                  Options.max_background_flushes: -1
+2020/06/01-02:04:39.387231 7f6a5ad67700                         Options.WAL_ttl_seconds: 0
+2020/06/01-02:04:39.387232 7f6a5ad67700                       Options.WAL_size_limit_MB: 0
+2020/06/01-02:04:39.387234 7f6a5ad67700             Options.manifest_preallocation_size: 4194304
+2020/06/01-02:04:39.387236 7f6a5ad67700                     Options.is_fd_close_on_exec: 1
+2020/06/01-02:04:39.387237 7f6a5ad67700                   Options.advise_random_on_open: 1
+2020/06/01-02:04:39.387239 7f6a5ad67700                    Options.db_write_buffer_size: 0
+2020/06/01-02:04:39.387240 7f6a5ad67700                    Options.write_buffer_manager: 0x7f6b3803abd0
+2020/06/01-02:04:39.387242 7f6a5ad67700         Options.access_hint_on_compaction_start: 1
+2020/06/01-02:04:39.387244 7f6a5ad67700  Options.new_table_reader_for_compaction_inputs: 0
+2020/06/01-02:04:39.387245 7f6a5ad67700           Options.random_access_max_buffer_size: 1048576
+2020/06/01-02:04:39.387247 7f6a5ad67700                      Options.use_adaptive_mutex: 0
+2020/06/01-02:04:39.387259 7f6a5ad67700                            Options.rate_limiter: (nil)
+2020/06/01-02:04:39.387261 7f6a5ad67700     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/06/01-02:04:39.387263 7f6a5ad67700                       Options.wal_recovery_mode: 2
+2020/06/01-02:04:39.387264 7f6a5ad67700                  Options.enable_thread_tracking: 0
+2020/06/01-02:04:39.387266 7f6a5ad67700                  Options.enable_pipelined_write: 0
+2020/06/01-02:04:39.387267 7f6a5ad67700         Options.allow_concurrent_memtable_write: 1
+2020/06/01-02:04:39.387269 7f6a5ad67700      Options.enable_write_thread_adaptive_yield: 1
+2020/06/01-02:04:39.387270 7f6a5ad67700             Options.write_thread_max_yield_usec: 100
+2020/06/01-02:04:39.387272 7f6a5ad67700            Options.write_thread_slow_yield_usec: 3
+2020/06/01-02:04:39.387273 7f6a5ad67700                               Options.row_cache: None
+2020/06/01-02:04:39.387275 7f6a5ad67700                              Options.wal_filter: None
+2020/06/01-02:04:39.387276 7f6a5ad67700             Options.avoid_flush_during_recovery: 0
+2020/06/01-02:04:39.387278 7f6a5ad67700             Options.allow_ingest_behind: 0
+2020/06/01-02:04:39.387279 7f6a5ad67700             Options.preserve_deletes: 0
+2020/06/01-02:04:39.387281 7f6a5ad67700             Options.two_write_queues: 0
+2020/06/01-02:04:39.387282 7f6a5ad67700             Options.manual_wal_flush: 0
+2020/06/01-02:04:39.387284 7f6a5ad67700             Options.max_background_jobs: 2
+2020/06/01-02:04:39.387286 7f6a5ad67700             Options.max_background_compactions: -1
+2020/06/01-02:04:39.387287 7f6a5ad67700             Options.avoid_flush_during_shutdown: 0
+2020/06/01-02:04:39.387289 7f6a5ad67700           Options.writable_file_max_buffer_size: 1048576
+2020/06/01-02:04:39.387290 7f6a5ad67700             Options.delayed_write_rate : 16777216
+2020/06/01-02:04:39.387292 7f6a5ad67700             Options.max_total_wal_size: 0
+2020/06/01-02:04:39.387293 7f6a5ad67700             Options.delete_obsolete_files_period_micros: 21600000000
+2020/06/01-02:04:39.387295 7f6a5ad67700                   Options.stats_dump_period_sec: 600
+2020/06/01-02:04:39.387296 7f6a5ad67700                          Options.max_open_files: -1
+2020/06/01-02:04:39.387298 7f6a5ad67700                          Options.bytes_per_sync: 0
+2020/06/01-02:04:39.387300 7f6a5ad67700                      Options.wal_bytes_per_sync: 0
+2020/06/01-02:04:39.387301 7f6a5ad67700       Options.compaction_readahead_size: 0
+2020/06/01-02:04:39.387303 7f6a5ad67700 Compression algorithms supported:
+2020/06/01-02:04:39.387305 7f6a5ad67700 	kZSTDNotFinalCompression supported: 1
+2020/06/01-02:04:39.387308 7f6a5ad67700 	kZSTD supported: 1
+2020/06/01-02:04:39.387309 7f6a5ad67700 	kXpressCompression supported: 0
+2020/06/01-02:04:39.387311 7f6a5ad67700 	kLZ4HCCompression supported: 1
+2020/06/01-02:04:39.387313 7f6a5ad67700 	kLZ4Compression supported: 1
+2020/06/01-02:04:39.387314 7f6a5ad67700 	kBZip2Compression supported: 1
+2020/06/01-02:04:39.387316 7f6a5ad67700 	kZlibCompression supported: 1
+2020/06/01-02:04:39.387318 7f6a5ad67700 	kSnappyCompression supported: 1
+2020/06/01-02:04:39.387320 7f6a5ad67700 Fast CRC32 supported: Not supported on x86
+2020/06/01-02:04:39.387562 7f6a5ad67700 [db/version_set.cc:3050] Recovering from manifest file: MANIFEST-000008
+2020/06/01-02:04:39.387647 7f6a5ad67700 [db/column_family.cc:433] --------------- Options for column family [default]:
+2020/06/01-02:04:39.387650 7f6a5ad67700               Options.comparator: leveldb.BytewiseComparator
+2020/06/01-02:04:39.387652 7f6a5ad67700           Options.merge_operator: None
+2020/06/01-02:04:39.387653 7f6a5ad67700        Options.compaction_filter: None
+2020/06/01-02:04:39.387655 7f6a5ad67700        Options.compaction_filter_factory: None
+2020/06/01-02:04:39.387656 7f6a5ad67700         Options.memtable_factory: SkipListFactory
+2020/06/01-02:04:39.387658 7f6a5ad67700            Options.table_factory: BlockBasedTable
+2020/06/01-02:04:39.387731 7f6a5ad67700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f6b3803b8a0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 0
+  no_block_cache: 0
+  block_cache: 0x7f6b38032720
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 67108864
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+2020/06/01-02:04:39.387748 7f6a5ad67700        Options.write_buffer_size: 33554432
+2020/06/01-02:04:39.387750 7f6a5ad67700  Options.max_write_buffer_number: 3
+2020/06/01-02:04:39.387753 7f6a5ad67700          Options.compression: LZ4
+2020/06/01-02:04:39.387755 7f6a5ad67700                  Options.bottommost_compression: Disabled
+2020/06/01-02:04:39.387756 7f6a5ad67700       Options.prefix_extractor: nullptr
+2020/06/01-02:04:39.387758 7f6a5ad67700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/06/01-02:04:39.387760 7f6a5ad67700             Options.num_levels: 7
+2020/06/01-02:04:39.387761 7f6a5ad67700        Options.min_write_buffer_number_to_merge: 1
+2020/06/01-02:04:39.387763 7f6a5ad67700     Options.max_write_buffer_number_to_maintain: 0
+2020/06/01-02:04:39.387764 7f6a5ad67700            Options.compression_opts.window_bits: -14
+2020/06/01-02:04:39.387766 7f6a5ad67700                  Options.compression_opts.level: 32767
+2020/06/01-02:04:39.387767 7f6a5ad67700               Options.compression_opts.strategy: 0
+2020/06/01-02:04:39.387769 7f6a5ad67700         Options.compression_opts.max_dict_bytes: 0
+2020/06/01-02:04:39.387771 7f6a5ad67700      Options.level0_file_num_compaction_trigger: 4
+2020/06/01-02:04:39.387772 7f6a5ad67700          Options.level0_slowdown_writes_trigger: 20
+2020/06/01-02:04:39.387774 7f6a5ad67700              Options.level0_stop_writes_trigger: 36
+2020/06/01-02:04:39.387775 7f6a5ad67700                   Options.target_file_size_base: 67108864
+2020/06/01-02:04:39.387777 7f6a5ad67700             Options.target_file_size_multiplier: 1
+2020/06/01-02:04:39.387779 7f6a5ad67700                Options.max_bytes_for_level_base: 268435456
+2020/06/01-02:04:39.387780 7f6a5ad67700 Options.level_compaction_dynamic_level_bytes: 0
+2020/06/01-02:04:39.387782 7f6a5ad67700          Options.max_bytes_for_level_multiplier: 10.000000
+2020/06/01-02:04:39.387785 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/06/01-02:04:39.387787 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/06/01-02:04:39.387788 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/06/01-02:04:39.387790 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/06/01-02:04:39.387792 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/06/01-02:04:39.387793 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/06/01-02:04:39.387795 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/06/01-02:04:39.387796 7f6a5ad67700       Options.max_sequential_skip_in_iterations: 8
+2020/06/01-02:04:39.387798 7f6a5ad67700                    Options.max_compaction_bytes: 1677721600
+2020/06/01-02:04:39.387800 7f6a5ad67700                        Options.arena_block_size: 4194304
+2020/06/01-02:04:39.387801 7f6a5ad67700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/06/01-02:04:39.387803 7f6a5ad67700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/06/01-02:04:39.387805 7f6a5ad67700       Options.rate_limit_delay_max_milliseconds: 100
+2020/06/01-02:04:39.387806 7f6a5ad67700                Options.disable_auto_compactions: 0
+2020/06/01-02:04:39.387814 7f6a5ad67700                        Options.compaction_style: kCompactionStyleUniversal
+2020/06/01-02:04:39.387817 7f6a5ad67700                          Options.compaction_pri: kByCompensatedSize
+2020/06/01-02:04:39.387819 7f6a5ad67700 Options.compaction_options_universal.size_ratio: 1
+2020/06/01-02:04:39.387820 7f6a5ad67700 Options.compaction_options_universal.min_merge_width: 2
+2020/06/01-02:04:39.387822 7f6a5ad67700 Options.compaction_options_universal.max_merge_width: 4294967295
+2020/06/01-02:04:39.387824 7f6a5ad67700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/06/01-02:04:39.387825 7f6a5ad67700 Options.compaction_options_universal.compression_size_percent: -1
+2020/06/01-02:04:39.387827 7f6a5ad67700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/06/01-02:04:39.387829 7f6a5ad67700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/06/01-02:04:39.387830 7f6a5ad67700 Options.compaction_options_fifo.allow_compaction: 0
+2020/06/01-02:04:39.387832 7f6a5ad67700 Options.compaction_options_fifo.ttl: 0
+2020/06/01-02:04:39.387833 7f6a5ad67700                   Options.table_properties_collectors: 
+2020/06/01-02:04:39.387835 7f6a5ad67700                   Options.inplace_update_support: 0
+2020/06/01-02:04:39.387836 7f6a5ad67700                 Options.inplace_update_num_locks: 10000
+2020/06/01-02:04:39.387838 7f6a5ad67700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/06/01-02:04:39.387840 7f6a5ad67700   Options.memtable_huge_page_size: 0
+2020/06/01-02:04:39.387842 7f6a5ad67700                           Options.bloom_locality: 0
+2020/06/01-02:04:39.387843 7f6a5ad67700                    Options.max_successive_merges: 0
+2020/06/01-02:04:39.387845 7f6a5ad67700                Options.optimize_filters_for_hits: 0
+2020/06/01-02:04:39.387846 7f6a5ad67700                Options.paranoid_file_checks: 0
+2020/06/01-02:04:39.387848 7f6a5ad67700                Options.force_consistency_checks: 0
+2020/06/01-02:04:39.387849 7f6a5ad67700                Options.report_bg_io_stats: 0
+2020/06/01-02:04:39.387928 7f6a5ad67700 [db/column_family.cc:433] --------------- Options for column family [.meta]:
+2020/06/01-02:04:39.387931 7f6a5ad67700               Options.comparator: leveldb.BytewiseComparator
+2020/06/01-02:04:39.387933 7f6a5ad67700           Options.merge_operator: None
+2020/06/01-02:04:39.387935 7f6a5ad67700        Options.compaction_filter: None
+2020/06/01-02:04:39.387936 7f6a5ad67700        Options.compaction_filter_factory: None
+2020/06/01-02:04:39.387938 7f6a5ad67700         Options.memtable_factory: SkipListFactory
+2020/06/01-02:04:39.387940 7f6a5ad67700            Options.table_factory: BlockBasedTable
+2020/06/01-02:04:39.387961 7f6a5ad67700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f6b3803b8a0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 0
+  no_block_cache: 0
+  block_cache: 0x7f6b38032720
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 67108864
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+2020/06/01-02:04:39.387964 7f6a5ad67700        Options.write_buffer_size: 33554432
+2020/06/01-02:04:39.387965 7f6a5ad67700  Options.max_write_buffer_number: 3
+2020/06/01-02:04:39.387967 7f6a5ad67700          Options.compression: LZ4
+2020/06/01-02:04:39.387969 7f6a5ad67700                  Options.bottommost_compression: Disabled
+2020/06/01-02:04:39.387970 7f6a5ad67700       Options.prefix_extractor: nullptr
+2020/06/01-02:04:39.387982 7f6a5ad67700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/06/01-02:04:39.387984 7f6a5ad67700             Options.num_levels: 7
+2020/06/01-02:04:39.387985 7f6a5ad67700        Options.min_write_buffer_number_to_merge: 1
+2020/06/01-02:04:39.387987 7f6a5ad67700     Options.max_write_buffer_number_to_maintain: 0
+2020/06/01-02:04:39.387988 7f6a5ad67700            Options.compression_opts.window_bits: -14
+2020/06/01-02:04:39.387990 7f6a5ad67700                  Options.compression_opts.level: 32767
+2020/06/01-02:04:39.387992 7f6a5ad67700               Options.compression_opts.strategy: 0
+2020/06/01-02:04:39.387993 7f6a5ad67700         Options.compression_opts.max_dict_bytes: 0
+2020/06/01-02:04:39.387995 7f6a5ad67700      Options.level0_file_num_compaction_trigger: 4
+2020/06/01-02:04:39.387996 7f6a5ad67700          Options.level0_slowdown_writes_trigger: 20
+2020/06/01-02:04:39.387998 7f6a5ad67700              Options.level0_stop_writes_trigger: 36
+2020/06/01-02:04:39.387999 7f6a5ad67700                   Options.target_file_size_base: 67108864
+2020/06/01-02:04:39.388001 7f6a5ad67700             Options.target_file_size_multiplier: 1
+2020/06/01-02:04:39.388002 7f6a5ad67700                Options.max_bytes_for_level_base: 268435456
+2020/06/01-02:04:39.388004 7f6a5ad67700 Options.level_compaction_dynamic_level_bytes: 0
+2020/06/01-02:04:39.388005 7f6a5ad67700          Options.max_bytes_for_level_multiplier: 10.000000
+2020/06/01-02:04:39.388008 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/06/01-02:04:39.388010 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/06/01-02:04:39.388011 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/06/01-02:04:39.388013 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/06/01-02:04:39.388014 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/06/01-02:04:39.388016 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/06/01-02:04:39.388017 7f6a5ad67700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/06/01-02:04:39.388019 7f6a5ad67700       Options.max_sequential_skip_in_iterations: 8
+2020/06/01-02:04:39.388020 7f6a5ad67700                    Options.max_compaction_bytes: 1677721600
+2020/06/01-02:04:39.388022 7f6a5ad67700                        Options.arena_block_size: 4194304
+2020/06/01-02:04:39.388023 7f6a5ad67700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/06/01-02:04:39.388025 7f6a5ad67700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/06/01-02:04:39.388026 7f6a5ad67700       Options.rate_limit_delay_max_milliseconds: 100
+2020/06/01-02:04:39.388028 7f6a5ad67700                Options.disable_auto_compactions: 0
+2020/06/01-02:04:39.388029 7f6a5ad67700                        Options.compaction_style: kCompactionStyleUniversal
+2020/06/01-02:04:39.388031 7f6a5ad67700                          Options.compaction_pri: kByCompensatedSize
+2020/06/01-02:04:39.388033 7f6a5ad67700 Options.compaction_options_universal.size_ratio: 1
+2020/06/01-02:04:39.388034 7f6a5ad67700 Options.compaction_options_universal.min_merge_width: 2
+2020/06/01-02:04:39.388036 7f6a5ad67700 Options.compaction_options_universal.max_merge_width: 4294967295
+2020/06/01-02:04:39.388037 7f6a5ad67700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/06/01-02:04:39.388039 7f6a5ad67700 Options.compaction_options_universal.compression_size_percent: -1
+2020/06/01-02:04:39.388040 7f6a5ad67700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/06/01-02:04:39.388042 7f6a5ad67700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/06/01-02:04:39.388043 7f6a5ad67700 Options.compaction_options_fifo.allow_compaction: 0
+2020/06/01-02:04:39.388045 7f6a5ad67700 Options.compaction_options_fifo.ttl: 0
+2020/06/01-02:04:39.388046 7f6a5ad67700                   Options.table_properties_collectors: 
+2020/06/01-02:04:39.388048 7f6a5ad67700                   Options.inplace_update_support: 0
+2020/06/01-02:04:39.388055 7f6a5ad67700                 Options.inplace_update_num_locks: 10000
+2020/06/01-02:04:39.388057 7f6a5ad67700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/06/01-02:04:39.388059 7f6a5ad67700   Options.memtable_huge_page_size: 0
+2020/06/01-02:04:39.388061 7f6a5ad67700                           Options.bloom_locality: 0
+2020/06/01-02:04:39.388062 7f6a5ad67700                    Options.max_successive_merges: 0
+2020/06/01-02:04:39.388064 7f6a5ad67700                Options.optimize_filters_for_hits: 0
+2020/06/01-02:04:39.388065 7f6a5ad67700                Options.paranoid_file_checks: 0
+2020/06/01-02:04:39.388067 7f6a5ad67700                Options.force_consistency_checks: 0
+2020/06/01-02:04:39.388068 7f6a5ad67700                Options.report_bg_io_stats: 0
+2020/06/01-02:04:39.469256 7f6a5ad67700 [db/version_set.cc:3316] Recovered from manifest file:/pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/current/MANIFEST-000008 succeeded,manifest_file_number is 8, next_file_number is 10, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 1
+2020/06/01-02:04:39.469273 7f6a5ad67700 [db/version_set.cc:3324] Column family [default] (ID 0), log number is 7
+2020/06/01-02:04:39.469277 7f6a5ad67700 [db/version_set.cc:3324] Column family [.meta] (ID 1), log number is 7
+2020/06/01-02:04:39.469409 7f6a5ad67700 EVENT_LOG_v1 {"time_micros": 1590977079469402, "job": 1, "event": "recovery_started", "log_files": [10]}
+2020/06/01-02:04:39.469415 7f6a5ad67700 [db/db_impl_open.cc:541] Recovering log #10 mode 2
+2020/06/01-02:04:39.469560 7f6a5ad67700 [db/version_set.cc:2825] Creating manifest 12
+2020/06/01-02:04:39.489672 7f6a5ad67700 EVENT_LOG_v1 {"time_micros": 1590977079489659, "job": 1, "event": "recovery_finished"}
+2020/06/01-02:04:39.498498 7f6a5ad67700 [db/db_impl_open.cc:1188] DB pointer 0x7f6b3803ac00
+2020/06/01-02:19:41.022125 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/cb682f4c-3728-4cff-8ede-1b0fa1eed549
+2020/06/01-02:19:41.041359 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/cb682f4c-3728-4cff-8ede-1b0fa1eed549.tmp
+2020/06/01-02:19:41.055286 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-02:19:41.077277 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-02:19:41.107856 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-02:19:41.133502 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-02:19:41.133740 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-02:19:41.133752 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-02:19:41.136863 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-02:19:41.136882 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-02:34:41.021528 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/6541597d-4f6c-4f19-b77a-2835bf27d43f
+2020/06/01-02:34:41.021567 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/6541597d-4f6c-4f19-b77a-2835bf27d43f.tmp
+2020/06/01-02:34:41.021621 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-02:34:41.021796 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-02:34:41.025890 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-02:34:41.031477 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-02:34:41.032101 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-02:34:41.032112 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-02:34:41.035216 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-02:34:41.035233 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-02:49:41.019770 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/2330251e-861b-41e8-845d-bb2be68fb1a1
+2020/06/01-02:49:41.019891 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/2330251e-861b-41e8-845d-bb2be68fb1a1.tmp
+2020/06/01-02:49:41.019985 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-02:49:41.020215 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-02:49:41.023835 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-02:49:41.028160 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-02:49:41.028350 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-02:49:41.028357 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-02:49:41.032698 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-02:49:41.032719 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-03:04:41.025167 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/15c3a7f9-8eef-451a-b48c-ab3b1df978bc
+2020/06/01-03:04:41.047220 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/15c3a7f9-8eef-451a-b48c-ab3b1df978bc.tmp
+2020/06/01-03:04:41.047415 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-03:04:41.067028 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-03:04:41.074167 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-03:04:41.089183 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-03:04:41.089640 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-03:04:41.089659 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-03:04:41.097877 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-03:04:41.097923 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-03:19:41.020753 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/a786c42c-f8c7-4ddc-b773-8d582f78743a
+2020/06/01-03:19:41.020814 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/a786c42c-f8c7-4ddc-b773-8d582f78743a.tmp
+2020/06/01-03:19:41.020896 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-03:19:41.021124 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-03:19:41.026130 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-03:19:41.030859 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-03:19:41.031208 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-03:19:41.031220 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-03:19:41.035113 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-03:19:41.035141 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-03:34:41.028395 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/a91aef3c-f4de-4672-865a-4997ece76d8b
+2020/06/01-03:34:41.028463 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/a91aef3c-f4de-4672-865a-4997ece76d8b.tmp
+2020/06/01-03:34:41.028564 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-03:34:41.029012 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-03:34:41.034217 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-03:34:41.039044 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-03:34:41.039361 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-03:34:41.039370 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-03:34:41.043115 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-03:34:41.043170 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-03:49:41.086070 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/f5974327-9312-4c43-9c8a-b335971ff861
+2020/06/01-03:49:41.086141 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/f5974327-9312-4c43-9c8a-b335971ff861.tmp
+2020/06/01-03:49:41.086275 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-03:49:41.087056 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-03:49:41.194158 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-03:49:41.260632 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-03:49:41.261150 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-03:49:41.261166 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-03:49:41.292108 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-03:49:41.292140 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-04:04:41.024602 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/5afcc414-41e4-4d60-9847-5a63cb15cf1d
+2020/06/01-04:04:41.024639 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/5afcc414-41e4-4d60-9847-5a63cb15cf1d.tmp
+2020/06/01-04:04:41.024693 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-04:04:41.024854 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-04:04:41.029350 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-04:04:41.032539 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-04:04:41.032727 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-04:04:41.032735 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-04:04:41.035747 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-04:04:41.035765 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-04:19:41.021988 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/2ec774ba-eda2-4a19-8ef5-c43c1656b5dc
+2020/06/01-04:19:41.022027 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/2ec774ba-eda2-4a19-8ef5-c43c1656b5dc.tmp
+2020/06/01-04:19:41.022088 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-04:19:41.030168 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-04:19:41.034539 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-04:19:41.039953 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-04:19:41.040235 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-04:19:41.040245 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-04:19:41.044915 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-04:19:41.044933 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-04:34:41.363481 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0c7fad27-b299-486c-ae95-0dbc4fd9a578
+2020/06/01-04:34:41.363589 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0c7fad27-b299-486c-ae95-0dbc4fd9a578.tmp
+2020/06/01-04:34:41.363667 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-04:34:41.363856 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-04:34:41.453734 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-04:34:41.460041 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-04:34:41.460424 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-04:34:41.460435 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-04:34:41.466354 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-04:34:41.466413 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-04:49:41.018270 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/b965a628-7383-4833-992d-e180d993f96a
+2020/06/01-04:49:41.033628 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/b965a628-7383-4833-992d-e180d993f96a.tmp
+2020/06/01-04:49:41.033744 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-04:49:41.033929 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-04:49:41.038454 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-04:49:41.044175 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-04:49:41.044636 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-04:49:41.044649 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-04:49:41.055251 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-04:49:41.055271 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-05:04:41.025169 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/5b1ad160-dd47-4894-a026-d904eb013625
+2020/06/01-05:04:41.025228 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/5b1ad160-dd47-4894-a026-d904eb013625.tmp
+2020/06/01-05:04:41.025295 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-05:04:41.025478 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-05:04:41.040976 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-05:04:41.045071 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-05:04:41.045351 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-05:04:41.045366 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-05:04:41.048942 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-05:04:41.048961 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-05:19:41.018245 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/3d3c9138-6e66-479a-a5d7-eb1e9b3f41cd
+2020/06/01-05:19:41.018290 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/3d3c9138-6e66-479a-a5d7-eb1e9b3f41cd.tmp
+2020/06/01-05:19:41.018354 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-05:19:41.018900 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-05:19:41.026836 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-05:19:41.038591 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-05:19:41.038883 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-05:19:41.038893 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-05:19:41.042188 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-05:19:41.042205 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-05:34:41.020665 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/03a22b24-2d9e-449a-9b93-4bef7e7cc2bc
+2020/06/01-05:34:41.030347 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/03a22b24-2d9e-449a-9b93-4bef7e7cc2bc.tmp
+2020/06/01-05:34:41.030666 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-05:34:41.048620 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-05:34:41.053452 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-05:34:41.059744 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-05:34:41.060057 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-05:34:41.060069 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-05:34:41.064842 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-05:34:41.064862 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-05:49:41.020570 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/1b0c4b3a-7d3f-4b06-b7a2-1243a71f437b
+2020/06/01-05:49:41.020618 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/1b0c4b3a-7d3f-4b06-b7a2-1243a71f437b.tmp
+2020/06/01-05:49:41.020709 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-05:49:41.020948 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-05:49:41.027067 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-05:49:41.032455 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-05:49:41.032761 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-05:49:41.032773 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-05:49:41.039352 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-05:49:41.039375 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-06:04:41.019908 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/ac90f333-7b06-48ac-ae3d-08becd0eec59
+2020/06/01-06:04:41.019984 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/ac90f333-7b06-48ac-ae3d-08becd0eec59.tmp
+2020/06/01-06:04:41.020082 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-06:04:41.020529 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-06:04:41.024537 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-06:04:41.028518 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-06:04:41.028787 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-06:04:41.028797 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-06:04:41.031965 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-06:04:41.031984 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-06:19:41.025175 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0e33a302-9809-451f-9ea3-3a48adfca7ae
+2020/06/01-06:19:41.025308 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0e33a302-9809-451f-9ea3-3a48adfca7ae.tmp
+2020/06/01-06:19:41.025369 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-06:19:41.025753 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-06:19:41.031766 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-06:19:41.036490 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-06:19:41.036704 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-06:19:41.036712 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-06:19:41.046916 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-06:19:41.046934 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-06:34:41.018179 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/3407cd90-5586-467f-801f-b082133add29
+2020/06/01-06:34:41.018220 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/3407cd90-5586-467f-801f-b082133add29.tmp
+2020/06/01-06:34:41.018300 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-06:34:41.018534 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-06:34:41.023213 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-06:34:41.027482 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-06:34:41.027731 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-06:34:41.027739 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-06:34:41.030707 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-06:34:41.030728 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-06:49:41.019161 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/8189e8e8-0333-4d35-b6b4-fbd0783066c1
+2020/06/01-06:49:41.031497 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/8189e8e8-0333-4d35-b6b4-fbd0783066c1.tmp
+2020/06/01-06:49:41.031594 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-06:49:41.083483 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-06:49:41.087166 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-06:49:41.102346 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-06:49:41.102563 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-06:49:41.102571 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-06:49:41.105573 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-06:49:41.105594 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-07:04:41.018463 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/cdeb8907-7bb3-4f2e-b2ed-ad8edab5377e
+2020/06/01-07:04:41.018532 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/cdeb8907-7bb3-4f2e-b2ed-ad8edab5377e.tmp
+2020/06/01-07:04:41.018610 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-07:04:41.018857 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-07:04:41.022770 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-07:04:41.026441 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-07:04:41.026734 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-07:04:41.026743 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-07:04:41.031203 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-07:04:41.031221 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-07:19:41.018214 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/e94b9154-74d0-4c77-be45-00e2e24b229d
+2020/06/01-07:19:41.018264 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/e94b9154-74d0-4c77-be45-00e2e24b229d.tmp
+2020/06/01-07:19:41.018322 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-07:19:41.018523 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-07:19:41.022219 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-07:19:41.025566 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-07:19:41.025782 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-07:19:41.025790 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-07:19:41.028421 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-07:19:41.028440 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-07:34:41.019312 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/981649f6-f602-4953-85a9-5effdce4ac8e
+2020/06/01-07:34:41.019362 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/981649f6-f602-4953-85a9-5effdce4ac8e.tmp
+2020/06/01-07:34:41.019448 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-07:34:41.019723 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-07:34:41.026279 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-07:34:41.032641 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-07:34:41.033078 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-07:34:41.033089 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-07:34:41.039743 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-07:34:41.039766 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-07:49:41.018353 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/02c05679-f498-4f14-bfdb-7749ea59ebd2
+2020/06/01-07:49:41.030333 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/02c05679-f498-4f14-bfdb-7749ea59ebd2.tmp
+2020/06/01-07:49:41.030498 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-07:49:41.030955 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-07:49:41.036451 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-07:49:41.042345 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-07:49:41.054062 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-07:49:41.054077 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-07:49:41.066644 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-07:49:41.066667 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-08:04:41.020296 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/dc238a83-b284-476f-839d-1f2eff684e0e
+2020/06/01-08:04:41.032666 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/dc238a83-b284-476f-839d-1f2eff684e0e.tmp
+2020/06/01-08:04:41.032793 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-08:04:41.061917 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-08:04:41.068272 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-08:04:41.073784 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-08:04:41.074110 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-08:04:41.074122 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-08:04:41.078129 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-08:04:41.078146 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-08:19:41.020551 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/c662e518-5674-4ec9-a184-071aef08a942
+2020/06/01-08:19:41.020612 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/c662e518-5674-4ec9-a184-071aef08a942.tmp
+2020/06/01-08:19:41.020692 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-08:19:41.020976 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-08:19:41.024849 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-08:19:41.030326 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-08:19:41.030506 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-08:19:41.030512 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-08:19:41.033238 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-08:19:41.033254 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-08:34:41.017912 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/a603639e-9cb8-40a1-858c-6b06e1f30f05
+2020/06/01-08:34:41.017989 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/a603639e-9cb8-40a1-858c-6b06e1f30f05.tmp
+2020/06/01-08:34:41.018042 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-08:34:41.040146 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-08:34:41.044589 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-08:34:41.047803 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-08:34:41.048001 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-08:34:41.048008 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-08:34:41.051694 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-08:34:41.051714 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-08:49:41.017947 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/6cabc5d9-ad36-4273-899f-69289eb6958f
+2020/06/01-08:49:41.032612 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/6cabc5d9-ad36-4273-899f-69289eb6958f.tmp
+2020/06/01-08:49:41.032718 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-08:49:41.061984 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-08:49:41.066820 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-08:49:41.070811 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-08:49:41.071045 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-08:49:41.071069 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-08:49:41.074308 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-08:49:41.074327 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-09:04:41.018109 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/b7370c40-ddb4-4a05-8545-0d1b84b4b80d
+2020/06/01-09:04:41.018169 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/b7370c40-ddb4-4a05-8545-0d1b84b4b80d.tmp
+2020/06/01-09:04:41.018269 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-09:04:41.018525 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-09:04:41.022250 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-09:04:41.025528 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-09:04:41.025693 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-09:04:41.025699 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-09:04:41.028400 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-09:04:41.028416 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-09:19:41.018034 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/81bf8a05-451e-484e-b4a6-0fe27d00eb70
+2020/06/01-09:19:41.018080 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/81bf8a05-451e-484e-b4a6-0fe27d00eb70.tmp
+2020/06/01-09:19:41.018138 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-09:19:41.018315 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-09:19:41.022116 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-09:19:41.027045 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-09:19:41.027253 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-09:19:41.027260 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-09:19:41.030257 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-09:19:41.030274 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-09:34:41.032362 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/6802a2ac-bd9d-4090-b28c-fdaa01fe9d2d
+2020/06/01-09:34:41.046245 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/6802a2ac-bd9d-4090-b28c-fdaa01fe9d2d.tmp
+2020/06/01-09:34:41.052654 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-09:34:41.074486 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-09:34:41.081544 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-09:34:41.087890 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-09:34:41.131629 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-09:34:41.131646 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-09:34:41.137809 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-09:34:41.137827 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-09:49:41.018278 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/293f74ea-b816-437a-8bcc-c0832c29ff8a
+2020/06/01-09:49:41.018327 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/293f74ea-b816-437a-8bcc-c0832c29ff8a.tmp
+2020/06/01-09:49:41.018390 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-09:49:41.018826 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-09:49:41.023220 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-09:49:41.027110 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-09:49:41.027364 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-09:49:41.027373 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-09:49:41.030657 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-09:49:41.030682 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-10:04:41.020097 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/e1fa97c3-e3c0-4376-85a3-06e6d003fe49
+2020/06/01-10:04:41.037278 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/e1fa97c3-e3c0-4376-85a3-06e6d003fe49.tmp
+2020/06/01-10:04:41.037399 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-10:04:41.037746 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-10:04:41.042976 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-10:04:41.048300 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-10:04:41.048725 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-10:04:41.048736 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-10:04:41.052405 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-10:04:41.052423 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-10:19:41.018243 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/b1810777-4939-4ec7-ad76-702aaf11e88c
+2020/06/01-10:19:41.018295 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/b1810777-4939-4ec7-ad76-702aaf11e88c.tmp
+2020/06/01-10:19:41.018474 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-10:19:41.469175 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-10:19:41.476101 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-10:19:41.482069 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-10:19:41.482377 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-10:19:41.482388 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-10:19:41.486282 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-10:19:41.486305 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-10:34:41.018300 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/121c3d13-258b-4b5c-81cc-f763c8ed43b0
+2020/06/01-10:34:41.018492 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/121c3d13-258b-4b5c-81cc-f763c8ed43b0.tmp
+2020/06/01-10:34:41.018551 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-10:34:41.036986 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-10:34:41.040872 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-10:34:41.044325 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-10:34:41.044536 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-10:34:41.044544 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-10:34:41.047275 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-10:34:41.047293 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-10:49:41.018678 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/bd3357fc-3af8-4398-9d21-c8f1c3fa469a
+2020/06/01-10:49:41.018722 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/bd3357fc-3af8-4398-9d21-c8f1c3fa469a.tmp
+2020/06/01-10:49:41.018787 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-10:49:41.018977 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-10:49:41.022743 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-10:49:41.026708 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-10:49:41.026923 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-10:49:41.026931 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-10:49:41.029809 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-10:49:41.029828 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-11:04:41.018405 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/5cae4042-16f0-499c-b086-6f6823083287
+2020/06/01-11:04:41.018442 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/5cae4042-16f0-499c-b086-6f6823083287.tmp
+2020/06/01-11:04:41.018507 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-11:04:41.020609 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-11:04:41.025666 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-11:04:41.031084 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-11:04:41.031359 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-11:04:41.031368 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-11:04:41.034420 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-11:04:41.034441 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-11:19:41.017997 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/200290af-2067-438c-9715-074b2bb66796
+2020/06/01-11:19:41.028622 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/200290af-2067-438c-9715-074b2bb66796.tmp
+2020/06/01-11:19:41.028756 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-11:19:41.028996 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-11:19:41.032825 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-11:19:41.036864 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-11:19:41.037079 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-11:19:41.037087 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-11:19:41.040033 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-11:19:41.040055 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-11:34:41.018847 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/36a1d25e-63b6-4cee-a0be-ea315e9ba19c
+2020/06/01-11:34:41.019013 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/36a1d25e-63b6-4cee-a0be-ea315e9ba19c.tmp
+2020/06/01-11:34:41.019104 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-11:34:41.042651 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-11:34:41.051064 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-11:34:41.056331 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-11:34:41.056781 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-11:34:41.056799 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-11:34:41.063566 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-11:34:41.063595 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-11:49:41.018962 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/f5a81d96-4394-463f-a2d7-b6d4a42dcc80
+2020/06/01-11:49:41.019035 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/f5a81d96-4394-463f-a2d7-b6d4a42dcc80.tmp
+2020/06/01-11:49:41.019136 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-11:49:41.033278 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-11:49:41.039602 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-11:49:41.052344 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-11:49:41.052995 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-11:49:41.053014 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-11:49:41.057695 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-11:49:41.057727 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-12:04:41.019453 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/00c92604-93b1-4c41-89b2-ec995be1ff80
+2020/06/01-12:04:41.035578 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/00c92604-93b1-4c41-89b2-ec995be1ff80.tmp
+2020/06/01-12:04:41.036058 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-12:04:41.036508 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-12:04:41.043909 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-12:04:41.051958 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-12:04:41.052451 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-12:04:41.052466 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-12:04:41.056998 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-12:04:41.057030 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-12:19:41.018524 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/dd38dcca-6e22-4079-8b20-06f22b74fb8c
+2020/06/01-12:19:41.018618 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/dd38dcca-6e22-4079-8b20-06f22b74fb8c.tmp
+2020/06/01-12:19:41.018715 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-12:19:41.019011 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-12:19:41.096805 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-12:19:41.221645 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-12:19:41.222902 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-12:19:41.222924 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-12:19:41.269681 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-12:19:41.269714 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-12:34:41.019152 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/c7025c01-706f-457e-9048-953f192745ac
+2020/06/01-12:34:41.034017 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/c7025c01-706f-457e-9048-953f192745ac.tmp
+2020/06/01-12:34:41.034196 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-12:34:41.072895 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-12:34:41.094470 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-12:34:41.100582 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-12:34:41.100963 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-12:34:41.100974 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-12:34:41.104225 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-12:34:41.104258 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/01-12:49:41.021408 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/13525fe1-5576-4dd4-8a10-2daf68de2eb8
+2020/06/01-12:49:41.021564 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/13525fe1-5576-4dd4-8a10-2daf68de2eb8.tmp
+2020/06/01-12:49:41.021658 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/01-12:49:41.022063 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/01-12:49:41.028446 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/01-12:49:41.032999 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/01-12:49:41.033337 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/01-12:49:41.033349 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/01-12:49:41.037531 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/01-12:49:41.037671 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-04:02:23.468121 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/82b7e9c5-dea8-4dc3-abdb-fbfd3856dd3f
+2020/06/02-04:02:23.894062 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/82b7e9c5-dea8-4dc3-abdb-fbfd3856dd3f.tmp
+2020/06/02-04:02:23.895581 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-04:02:24.253050 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-04:02:29.296651 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-04:02:31.297074 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-04:02:31.297457 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-04:02:31.297470 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-04:02:33.552125 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-04:02:33.552152 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-04:17:23.488557 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0f8bf716-c286-4177-999a-a59b219cad78
+2020/06/02-04:17:23.495424 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0f8bf716-c286-4177-999a-a59b219cad78.tmp
+2020/06/02-04:17:23.510248 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-04:17:23.642720 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-04:17:23.661886 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-04:17:23.701133 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-04:17:23.701529 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-04:17:23.701543 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-04:17:23.705230 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-04:17:23.705250 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-04:32:23.529612 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/975422ec-f856-4266-9456-18af81067d4e
+2020/06/02-04:32:23.556218 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/975422ec-f856-4266-9456-18af81067d4e.tmp
+2020/06/02-04:32:23.579797 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-04:32:23.599264 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-04:32:23.605134 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-04:32:23.610956 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-04:32:23.623768 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-04:32:23.623784 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-04:32:23.636466 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-04:32:23.636484 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-04:47:23.468070 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/5d287b12-0514-4db9-b0a0-a0dfe7884a5f
+2020/06/02-04:47:23.468107 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/5d287b12-0514-4db9-b0a0-a0dfe7884a5f.tmp
+2020/06/02-04:47:23.468161 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-04:47:23.468347 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-04:47:23.471589 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-04:47:23.475823 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-04:47:23.476037 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-04:47:23.476046 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-04:47:23.478913 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-04:47:23.479024 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-05:02:23.467660 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/9bb13fb0-a84f-45a1-aa3c-965b1462d049
+2020/06/02-05:02:24.140026 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/9bb13fb0-a84f-45a1-aa3c-965b1462d049.tmp
+2020/06/02-05:02:24.140256 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-05:02:24.157488 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-05:02:24.162548 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-05:02:24.166872 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-05:02:24.167175 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-05:02:24.167187 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-05:02:24.172316 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-05:02:24.172339 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-05:17:23.475206 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/63e6e814-0936-4883-926b-f06fd08d5812
+2020/06/02-05:17:23.517750 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/63e6e814-0936-4883-926b-f06fd08d5812.tmp
+2020/06/02-05:17:23.573851 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-05:17:23.620710 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-05:17:23.683998 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-05:17:23.707863 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-05:17:23.708269 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-05:17:23.708284 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-05:17:23.712414 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-05:17:23.712435 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-05:32:23.770101 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/820ae32f-2049-411a-b1fe-0a2573289c8f
+2020/06/02-05:32:23.770144 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/820ae32f-2049-411a-b1fe-0a2573289c8f.tmp
+2020/06/02-05:32:23.770208 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-05:32:23.807162 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-05:32:23.812900 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-05:32:23.825609 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-05:32:23.825850 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-05:32:23.825859 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-05:32:23.828747 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-05:32:23.828765 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-05:47:23.467069 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/62fad610-a5e5-4bb5-8b74-74bd0198c71d
+2020/06/02-05:47:23.467148 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/62fad610-a5e5-4bb5-8b74-74bd0198c71d.tmp
+2020/06/02-05:47:23.467224 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-05:47:23.467416 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-05:47:23.473525 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-05:47:23.487761 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-05:47:23.487966 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-05:47:23.487972 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-05:47:23.492195 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-05:47:23.492229 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-06:02:23.467035 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0f6cae5d-2b8e-400d-a9c3-3ba31296d466
+2020/06/02-06:02:23.595446 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0f6cae5d-2b8e-400d-a9c3-3ba31296d466.tmp
+2020/06/02-06:02:23.595736 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-06:02:23.611108 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-06:02:23.617412 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-06:02:23.631039 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-06:02:23.631239 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-06:02:23.631245 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-06:02:23.635020 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-06:02:23.635041 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-06:17:23.992887 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/e4c39210-c561-4da2-a5cc-696d9bb0ecb5
+2020/06/02-06:17:24.577008 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/e4c39210-c561-4da2-a5cc-696d9bb0ecb5.tmp
+2020/06/02-06:17:24.577204 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-06:17:24.882002 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-06:17:25.239320 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-06:17:25.644597 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-06:17:25.644904 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-06:17:25.644914 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-06:17:25.713977 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-06:17:25.713994 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-06:32:24.122361 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0e420a88-69eb-4175-b3c3-750df40356df
+2020/06/02-06:32:24.234638 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000001/000000000000000000/checkpoints/0e420a88-69eb-4175-b3c3-750df40356df.tmp
+2020/06/02-06:32:24.259848 7f6a5a55f700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/06/02-06:32:24.496179 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000012
+2020/06/02-06:32:24.678177 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000015
+2020/06/02-06:32:24.815895 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/06/02-06:32:24.816098 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/06/02-06:32:24.816105 7f6a5a55f700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/06/02-06:32:24.864253 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/06/02-06:32:24.864285 7f6a5a55f700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 0
+2020/06/02-06:38:29.283573 7f6a5a963700 [db/db_impl_compaction_flush.cc:892] [default] Manual flush start.
+2020/06/02-06:38:29.299456 7f6a5a963700 [db/db_impl_compaction_flush.cc:897] [default] Manual flush finished, status: OK
+2020/06/02-06:38:29.299543 7f6a5a963700 [db/db_impl_compaction_flush.cc:892] [default] Manual flush start.
+2020/06/02-06:38:29.299547 7f6a5a963700 [db/db_impl_compaction_flush.cc:897] [default] Manual flush finished, status: OK
+2020/06/02-06:38:29.299606 7f6a5a963700 [db/db_impl.cc:252] Shutdown: canceling all background work
+2020/06/02-06:38:29.347334 7f6a5a963700 [db/db_impl.cc:395] Shutdown complete
